@@ -40,7 +40,7 @@ public class DatasourceConfig {
 
 		hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/sys");
 		hikariConfig.setUsername("testuser1");
-		hikariConfig.setPassword("sujan123");
+		hikariConfig.setPassword("*****");
 		hikariConfig.setMaxLifetime(30000L);
 		hikariConfig.setPoolName("testPoolPrimary");
 		hikariConfig.setIdleTimeout(10000L);
@@ -64,7 +64,7 @@ public class DatasourceConfig {
 
 		hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/sys");
 		hikariConfig.setUsername("root");
-		hikariConfig.setPassword("a3!BM!DNA");
+		hikariConfig.setPassword("*****");
 		hikariConfig.setMaxLifetime(30000L);
 		hikariConfig.setPoolName("testPoolBackup");
 		hikariConfig.setIdleTimeout(10000L);
